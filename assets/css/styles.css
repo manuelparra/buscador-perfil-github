@@ -1,0 +1,270 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #f0f6fc;
+  background-color: #0d1017;
+}
+
+.container {
+  width: 80%;
+  max-width: 1140px;
+}
+
+.body-wrapper {
+  width: 100%;
+}
+
+.welcome-wrapper {
+  justify-content: center;
+  align-items: center;
+  min-height: 110px;
+  width: 100%;
+  background-color: #161a22;
+  border-bottom: 1px solid #30363d;
+}
+
+.welcome-wrapper .welcome-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.welcome-wrapper .welcome-container h1 {
+  font-size: 26px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.welcome-wrapper .welcome-container p {
+  font-size: 14px;
+  color: #8a939d;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.main-wrapper {
+  width: inherit;
+  color: #8b949e;
+}
+
+.image-container {
+  margin: auto;
+  text-align: right;
+  padding-top: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.search-box {
+  min-height: 65px;
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 0.5rem;
+  margin: auto;
+}
+
+.search-box div.input-profile {
+  display: inline;
+  margin: auto;
+  min-width: 90%;
+}
+
+div.form-group {
+  position: relative;
+  display: inline;
+  width: 50%;
+  top: 5px;
+}
+
+input.form-control {
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  min-width: 20em;
+  color: #c9d1d9;
+  background-color: #0d1117;
+  vertical-align: middle;
+  background-position: right 8px center;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  outline: none;
+}
+
+input.form-control:focus {
+  border-color: #388bfd;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+div.button {
+  width: 50%;
+}
+
+.search-button {
+  float: right;
+  display: inline;
+  width: 10rem;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: #238636;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container-flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card-profile {
+  width: 100%;
+}
+
+.data-profile {
+  margin-top: 20px;
+  min-height: 250px;
+  margin-left: auto;
+  margin-right: auto; 
+  justify-content: center;
+  padding: 1rem 0.2rem;
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 0.5rem;
+}
+
+.data-profile .fig-profile {
+  width: 40%;
+  justify-content: center;
+}
+
+.data-profile .fig-profile img {
+  width: 230px;
+  height: 230px;
+  border: 1px solid #30363d;
+  border-radius: 50%;
+}
+
+.data-profile .info-profile {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  padding: 1.2rem 0.8rem 0rem 0.8rem;
+}
+
+.data-profile .info-profile .labels {
+  flex-direction: column;
+}
+
+.data-profile .info-profile .labels label {
+  padding-bottom: 0.5rem;
+}
+
+.data-profile .info-profile .labels label span{
+  font-weight: normal;
+  padding-left: 0.2rem;
+}
+
+.data-profile .info-profile .social-icons {
+  justify-content: center; 
+}
+
+.data-profile .info-profile .social-icons img{
+  padding: 0 1rem;
+}
+
+footer {
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  color: #8b949e;
+}
+
+footer a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+@media (max-width: 999px){ 
+  input.form-control  {
+    min-width: unset;
+  }
+}
+
+@media (max-width: 716px){ 
+  .welcome-wrapper .welcome-container h1 {
+    font-size: 1.2em;
+  }
+  
+  .welcome-wrapper .welcome-container p {
+    font-size: 0.8em;
+  }
+
+  .search-box {
+    font-size: 0.8em;
+  }
+
+  .search-box button {
+    font-size: 0.9em;
+  }
+
+  div.form-group {
+    width: 90%;
+    margin: auto;
+  }
+
+  div.form-group label {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    font-size: 1.1em;
+  }
+
+  div.form-group input {
+    display: block;
+    width: calc(100% - 26px);
+    font-size: 1.1em;
+  }
+
+  div.button {
+    width: 90%;
+    margin: auto;
+  }
+
+  div.button button {
+    margin: 15px 0px;
+  }
+
+  .data-profile {
+    flex-direction: column;
+    align-items: center    
+  }
+
+  .data-profile .fig-profile img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .data-profile .info-profile {
+    width: 90%;
+    font-size: 0.8em;
+  }
+
+  .data-profile .info-text .social-icons img {
+    width: 35px;
+  }
+}

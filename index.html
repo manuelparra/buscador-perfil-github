@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Perfiles Github</title>
+  <meta name="author" content="Manuel Parra">
+  <meta name="description" content="Proyecto Buscador de Perfiles Github desarrollado con HTML5, CSS3, JavaScript y Python">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body class="body-wrapper">
+  <header class="welcome-wrapper flex">
+    <div class="welcome-container container">
+      <h1>Bienvenidos al Buscador de Perfiles Github</h1>
+      <p>Este sitio permite realizar búsquedas de perfiles de GitHub de forma rápida con el nombre del perfil de usuario, Usa la API de GitHub para obtener la información del perfil.</p>
+    </div>
+  </header>
+ 
+  <main class="main-wrapper">
+    <div class="image-container container">
+      <img src="./assets/img/img-welcome.png" alt="">
+    </div>
+
+    <div class="search-box container flex">
+      <div class="input-profile">  
+        <form id="" name="" action="", method="" autocomplete="off">
+          <div class="container-flex">
+            <div class="form-group">
+              <label class="form-control" for="user">Usuario: </label>
+              <input class="form-control" id="user" type="text" name="user" placeholder="Ingrese el usuario...">
+            </div>
+            <div class="button">
+              <button class="search-button">Buscar perfil</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="card-profile">
+      <div id="data-profile" class="data-profile container flex">
+        <!-- Foto de perfil -->
+        <figure class="fig-profile flex">
+          <img id="img-profile" src="./assets/img/avatar.png" alt="Imagen de perfil">
+        </figure>
+
+        <!-- Etiquetas -->
+        <div class="info-profile flex">
+          <div class="labels flex">
+            <label>Nombre: <span id="nombre"></span>Carlos Muchacho</label>
+            <label>Ubicación <span id="ubicacion"></span>Córdaba, España</label>
+            <label>Biografía <span id="biografia"></span>Software development engineer</label>
+          </div>
+
+          <figure class="social-icons flex">
+            <a href="#" id="gh-link" target="_blank"><img src="https://icongr.am/entypo/github.svg?size=40&color=ffffff" alt="GitHb"></a>
+            <a href="#" id="tw-link" target="_blank"><img src="https://icongr.am/entypo/twitter.svg?size=40&color=ffffff" alt="Twitter"></a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    Desarrollado por <a href="https://github.com/manuelparra" target="_blank">Manuel Parra - Febrero 2021</a>
+  </footer>
+</body>
+</html> 
