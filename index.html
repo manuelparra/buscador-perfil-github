@@ -15,14 +15,14 @@
         <p>Este sitio permite realizar búsquedas de perfiles de GitHub de forma rápida con el nombre del perfil de usuario, Usa la API de GitHub para obtener la información del perfil.</p>
       </div>
     </header>
-  
+
     <main class="main-wrapper">
       <div class="image-container container">
         <img src="./assets/img/img-welcome.png" alt="">
       </div>
 
       <div class="search-box container flex">
-        <div class="input-profile">  
+        <div class="input-profile">
           <form id="" name="" action="", method="" autocomplete="off">
             <div class="container-flex">
               <div class="form-group">
@@ -37,7 +37,7 @@
         </div>
       </div>
 
-      <div class="card-profile">
+      <div id="card-profile" class="card-profile">
         <div id="data-profile" class="data-profile container flex">
           <!-- Foto de perfil -->
           <figure class="fig-profile flex">
@@ -59,7 +59,12 @@
           </div>
         </div>
       </div>
-    </main>
+
+			<div id="search-not-found" class="search-not-found container flex">
+				<h3><img src="https://icongr.am/entypo/emoji-sad.svg?size=17&color=f0f6fc">&nbsp;<span>Busqueda no encontrada</span></h3>
+				<p>No hemos podido encontrar un perfil con ese nombre de usuario. ¿Quieres intentarlo de nuevo?</p>
+			</div>
+		 </main>
 
     <footer>
       Desarrollado por <a href="https://github.com/manuelparra" target="_blank">Manuel Parra</a> - Febrero 2021

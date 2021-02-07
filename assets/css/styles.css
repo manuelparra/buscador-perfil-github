@@ -67,7 +67,7 @@ html {
   min-height: 65px;
   background-color: #0d1117;
   border: 1px solid #30363d;
-  border-radius: 0.5rem;
+  border-radius: 0.5em;
   margin: auto;
 }
 
@@ -94,7 +94,7 @@ input.form-control {
   vertical-align: middle;
   background-position: right 8px center;
   border: 1px solid #30363d;
-  border-radius: 6px;
+  border-radius: 0.5em;
   outline: none;
 }
 
@@ -116,7 +116,7 @@ div.button {
   display: inline;
   width: 10rem;
   padding: 0.8rem;
-  border-radius: 0.2rem;
+  border-radius: 0.2em;
   color: #fff;
   background-color: #238636;
   border: none;
@@ -137,12 +137,12 @@ div.button {
   margin-top: 20px;
   min-height: 250px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
   justify-content: center;
-  padding: 1rem 0.2rem;
+  padding: 1rem 0rem;
   background-color: #0d1117;
   border: 1px solid #30363d;
-  border-radius: 0.5rem;
+  border-radius: 0.5em;
 }
 
 .data-profile .fig-profile {
@@ -178,11 +178,31 @@ div.button {
 }
 
 .data-profile .info-profile .social-icons {
-  justify-content: center; 
+  justify-content: center;
 }
 
 .data-profile .info-profile .social-icons img{
   padding: 0 1rem;
+}
+
+.search-not-found {
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	flex-flow: column;
+	margin-top: 20px;
+	border: 1px solid #30363d;
+	border-radius: 0.5em;
+	padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.search-not-found h3 {
+	color: #fff;
+}
+
+.search-not-found p {
+	font-size: 14px;
 }
 
 footer {
@@ -198,17 +218,17 @@ footer a {
   text-decoration: none;
 }
 
-@media (max-width: 999px){ 
+@media (max-width: 999px){
   input.form-control  {
     min-width: unset;
   }
 }
 
-@media (max-width: 716px){ 
+@media (max-width: 716px){
   .welcome-wrapper .welcome-container h1 {
     font-size: 1.2em;
   }
-  
+
   .welcome-wrapper .welcome-container p {
     font-size: 0.8em;
   }
@@ -251,7 +271,7 @@ footer a {
 
   .data-profile {
     flex-direction: column;
-    align-items: center    
+    align-items: center
   }
 
   .data-profile .fig-profile img {
@@ -267,4 +287,18 @@ footer a {
   .data-profile .info-text .social-icons img {
     width: 35px;
   }
+
+	.search-not-found {
+		font-size: 0.8em;
+		text-align: center;
+	}
+
+	.search-not-found h3 {
+		width: 90%;
+	}
+
+	.search-not-found p {
+		width: 90%;
+	}
 }
+
