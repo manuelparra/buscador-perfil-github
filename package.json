@@ -1,0 +1,19 @@
+{
+  "name": "buscadorgithub",
+  "version": "1.0.0",
+  "description": "## Resumen Este repositorio contiene las fuentes del proyecto buscador de perfiles github, el mismo forma parte de un reto lanzado por un grupo de desarrollo de Frontedcafe, el objetivo es desarrollar una una interfaz para el consumo de la API de github con Python como lenguaje de backend empleando el framework Flask",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelparra/buscador-perfil-github.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelparra/buscador-perfil-github/issues"
+  },
+  "homepage": "https://github.com/manuelparra/buscador-perfil-github#readme"
+}
