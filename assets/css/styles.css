@@ -59,6 +59,10 @@ html {
   padding-top: 20px;
 }
 
+.image-container svg path {
+	fill: #238636;
+}
+
 .flex {
   display: flex;
 }
@@ -166,10 +170,12 @@ div.button {
 
 .data-profile .info-profile .labels {
   flex-direction: column;
+  text-align: center;
 }
 
 .data-profile .info-profile .labels label {
-  padding-bottom: 0.5rem;
+  font-size: 16px;
+  padding-bottom: 0.8rem;
 }
 
 .data-profile .info-profile .labels label span{
@@ -284,6 +290,10 @@ footer a {
     font-size: 0.8em;
   }
 
+  .data-profile .info-profile .labels label {
+    font-size: 14px;
+  }
+
   .data-profile .info-text .social-icons img {
     width: 35px;
   }
@@ -298,7 +308,12 @@ footer a {
 	}
 
 	.search-not-found p {
+    font-size: 0.8rem;
 		width: 90%;
 	}
+
+  footer {
+    font-size: 11px;
+  }
 }
 
